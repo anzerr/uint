@@ -1,27 +1,25 @@
 {
 	"name": "uint",
 	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"commit": "git add . && git commit -m \"fast save\" && git push origin master"
+	"keywords": [],
+	"homepage": "https://github.com/anzerr/uint#readme",
+	"bugs": {
+		"url": "https://github.com/anzerr/uint/issues"
 	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/anzerr/uint.git"
 	},
-	"keywords": [],
-	"author": "",
 	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/anzerr/uint/issues"
-	},
-	"homepage": "https://github.com/anzerr/uint#readme",
-	"devDependencies": {
-		"eslint": "^5.8.0",
-		"eslint-config-basic": "git+https://git@github.com/anzerr/eslintrc.git"
+	"main": "index.js",
+	"scripts": {
+		"commit": "git add . && git commit -m \"fast save\" && git push origin master"
 	},
 	"eslintConfig": {
 		"extends": "eslint-config-basic"
+	},
+	"devDependencies": {
+		"eslint": "^5.8.0",
+		"eslint-config-basic": "git+https://git@github.com/anzerr/eslintrc.git"
 	}
 }
