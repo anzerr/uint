@@ -8,10 +8,12 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/anzerr/uint.git"
+		"url": "git@github.com:anzerr/uint.git"
 	},
-	"license": "ISC",
+	"license": "MIT",
+	"author": "anzerr",
 	"main": "index.js",
+	"types": "index.d.ts",
 	"scripts": {
 		"commit": "git add . && git commit -m \"fast save\" && git push origin master"
 	},
@@ -19,7 +21,10 @@
 		"extends": "eslint-config-basic"
 	},
 	"devDependencies": {
-		"eslint": "^5.8.0",
+		"eslint": "5.11.1",
 		"eslint-config-basic": "git+https://git@github.com/anzerr/eslintrc.git"
+	},
+	"engines": {
+		"node": ">= 0.10.0"
 	}
 }
