@@ -1,3 +1,14 @@
 
 ### `Intro`
-Uint util
+Util to format unsigned int to bases (hex, int4, int5, dec, int8)
+
+#### `Install`
+``` bash
+npm install --save git+ssh://git@github.com/anzerr/uint.git
+```
+
+### `Example`
+``` javascript
+const uint = require('uint');
+console.log(uint.uint8.toHex([10, 100])); // 0A64
+````
