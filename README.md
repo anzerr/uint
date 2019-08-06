@@ -4,7 +4,7 @@ Util to format unsigned int to bases (hex, int4, int5, dec, int8)
 
 #### `Install`
 ``` bash
-npm install --save git+ssh://git@github.com/anzerr/uint.git
+npm install --save git+http://github.com/anzerr/uint.git
 ```
 
 ### `Example`
