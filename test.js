@@ -6,4 +6,4 @@ let value = [10, 100], b = uint.uint8.toHex(value);
 
 assert.equal(b, Buffer.from(value).toString('hex').toUpperCase());
 assert.deepEqual(uint.uint8.fromHex(b), new Uint8Array(value));
-assert.deepEqual(uint.uint8.toUint4(value), [0, 10, 6, 4]);
+assert.deepEqual(uint.uint8.toUint4(value), new Uint8Array([0, 10, 6, 4]));
